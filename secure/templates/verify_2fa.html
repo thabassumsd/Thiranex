@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>Enter 2FA Code</h3>
+<form method="POST">
+    <input name="token" placeholder="6-digit code" required><br>
+    <button type="submit">Verify</button>
+</form>
+{% endblock %}
